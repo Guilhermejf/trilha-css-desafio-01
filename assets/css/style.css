@@ -1,0 +1,14 @@
+@import url(/assets/css/reset.css);
+
+.banner{
+    width: 1440px;
+    height: 605px;
+    background-image: url(../images/banner.png);
+}
+
+.banner-content{
+    margin: 56px auto;
+    width: 510px;
+    height: 393px;
+    text-align: center;
+}
