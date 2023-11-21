@@ -115,3 +115,24 @@ main{
     -webkit-box-shadow: -9px 10px 17px -5px rgba(0,0,0,1) inset;
     -moz-box-shadow: -9px 10px 17px -5px rgba(0,0,0,1) inset;
 }
+
+#transform-world{
+    border: 1px solid;
+    border-color: #33a8db;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    padding: 150px 0 0 300px;
+    
+}
+
+#transform-world p{
+    width: 300px;
+    height: 141px;
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+    text-transform: lowercase;
+    filter: drop-shadow(5px 2px 0px #33A8DB);
+}
