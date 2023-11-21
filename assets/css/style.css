@@ -69,7 +69,7 @@ main{
     text-align: center;
 }
 
-#course-content h2{
+#course-content h2 ,#professional-challenges h2{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 32px;
@@ -135,4 +135,39 @@ main{
     font-size: 48px;
     text-transform: lowercase;
     filter: drop-shadow(5px 2px 0px #33A8DB);
+}
+
+
+#professional-challenges h2{
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#professional-challenges{
+    text-align: center;
+}
+
+#professional-challenges p{
+    margin: 0 auto;
+    color: white;
+    width: 800px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 40px 0 90px 0;
+}
+
+footer{
+    border-top: 1px solid #33A8DB;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    height: 170px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: 700;
 }
