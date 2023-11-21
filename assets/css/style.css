@@ -1,14 +1,110 @@
 @import url(/assets/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
 .banner{
-    width: 1440px;
+    
     height: 605px;
-    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0,.8);
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(49, 168, 221, .2), rgba(0, 0, 0, .8)), url('../images/banner.png');
+    border-bottom: 1px solid rgba(51, 168, 219, 1) ;
 }
-
 .banner-content{
-    margin: 56px auto;
+    padding-top: 50px;
+    margin: 0px auto;
     width: 510px;
     height: 393px;
     text-align: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 248px;
+    height: 248px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.banner-content h1{
+    color: transparent;
+    background: -webkit-linear-gradient(#33a8db,#1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+.banner-content p{
+    color: white;
+    text-align: center;
+    width: 530px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.banner-content button{
+    width: 330px;
+    height: 50px;
+    background: -webkit-linear-gradient(#33a8db,#1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    border-image-source: linear-gradient(#33a8db,#1472B7);
+    border-image-slice: 10;
+    color: transparent;
+}
+main{
+    background-color:rgb(0, 0, 0) ;
+}
+#course-content{
+    padding: 118px 90px;
+    text-align: center;
+}
+
+#course-content h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    background: -webkit-linear-gradient(#33a8db,#1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 24px;
+}
+
+#course-content p{
+    margin: 0 auto;
+    max-width: 792px;
+    color: rgba(255, 255, 255, 1) ;
+}
+
+.modules-list{
+    margin: 0 auto;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module span{
+    color: rgba(51, 168, 219, 1) ;
+}
+
+.module{
+    border: 2px solid purple;
+    max-width: 535px;
+    min-width: 450px;
+    height: 50px;
+    border-radius: 57px;
+    background-color: rgba(37, 37, 37, 1);
+    color: rgba(255, 255, 255, 1);
+    margin: 24px;
 }
